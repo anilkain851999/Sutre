@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Stylesheet Css  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Complaintsproducts.css">
+
+
+    <title>Compair products </title>
+  </head>
+  <body>
+    <header id="siteheader">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="Complaints.html">Complaints</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience Reports</a></li>
+          <li class="nav-item"><a class="nav-link" href="Trend_100.html">Trend <span>100</span></a></li>
+          <div class="form">
+            <i class="fa fa-search"></i>
+            <input type="text" class="form-control form-input" placeholder="Search for brands, models, products">
+          </div>
+          <li class="nav-item"><a class="nav-link" href="#">Login / Register</a></li>
+          <li class="nav-item button"><a class="nav-link" href="#">Write a Complaint</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<section  class="breadcrumb-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="sv-breadcrumb-primary">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home page</a></li>
+              <li class="breadcrumb-item"><a href="#">Experience Reports</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Car</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section  id="Experience_Result_Brand">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <h1 class="Brand_title">Car</h1>
+        <p class="Brand_used">37,676<span>people evaluated the product they used</span></p>
+        <p class="Brand_desc">Experience reports were created by the evaluation of users who did not write complaints about the model.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section  id="Experience_reports">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-12">
+        <div class="fillter_product_type">
+          <div class="title-sec">
+            <h2>Filters</h2>
+          </div>
+          <form id="fillter_product"> 
+            <h3>Product Type</h3>
+            <div class="p_brand">
+            <ul>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sedan
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sedan Luxury
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Hatchback-Compact
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  SUV-Crossover
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Suv-Crossover Luxury
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  panel van
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sports Car
+                </label>
+              </div>
+              </li>
+            </ul>
+            </div>
+
+            <div class="filter-section-title"><h3>Brand</h3></div>
+            <div class="search-input"><label for="search-brand">
+              <input type="text" id="search-brand" class="input-field" autocomplete="off" placeholder="Search Brand">
+              <i class="fa fa-search"></i>
+            </label>
+          </div>
+            <ul class="search_brand">
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sedan
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sedan Luxury
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Hatchback-Compact
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  SUV-Crossover
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Suv-Crossover Luxury
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  panel van
+                </label>
+              </div>
+              </li>
+              <li>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sports Car
+                </label>
+              </div>
+              </li>
+            </ul>
+
+            <div class="btn-wrap">
+              <button type="button" aria-label="Clean" class="btn btn-secondary clear-filters-btn">Clean</button>
+              <button type="submit" aria-label="Apply" class="btn btn-search ga-c">Apply</button>
+            </div>
+          </form>
+        </div>
+        </div>
+      
+      <div class="col-xl-8 col-lg-8 col-md-12">
+
+        <div class="accordion_models">
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="d-flex align-center">
+                    <div class="sv-product-report-result__title">Sedan</div>
+                    <div class="sv-product-report-result__count">83 model</div>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="sv-score-item">
+                              <span class="sv-score-item__name ellipsis">Fiyat / Performans</span>
+                              <div class="sv-score-number sv-score-number--sm">
+                                <span>8,3</span>/
+                                <span>10</span>
+                              </div>
+                             <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                          </div>
+
+                            </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="sv-score-item">
+                              <span class="sv-score-item__name ellipsis">Fiyat / Performans</span>
+                              <div class="sv-score-number sv-score-number--sm">
+                                <span>8,3</span>/
+                                <span>10</span>
+                              </div>
+                             <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                          </div>
+
+                            </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse02" aria-expanded="true" aria-controls="collapse02">
+                  <div class="d-flex align-center">
+                    <div class="sv-product-report-result__title">Sedan</div>
+                    <div class="sv-product-report-result__count">83 model</div>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapse02" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="sv-score-item">
+                              <span class="sv-score-item__name ellipsis">Fiyat / Performans</span>
+                              <div class="sv-score-number sv-score-number--sm">
+                                <span>8,3</span>/
+                                <span>10</span>
+                              </div>
+                             <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                          </div>
+
+                            </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="sv-score-item">
+                              <span class="sv-score-item__name ellipsis">Fiyat / Performans</span>
+                              <div class="sv-score-number sv-score-number--sm">
+                                <span>8,3</span>/
+                                <span>10</span>
+                              </div>
+                             <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                          </div>
+
+                            </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                              <div class="sv-score-item">
+                                <span class="sv-score-item__name ellipsis">Tasarım</span>
+                                <div class="sv-score-number sv-score-number--sm">
+                                  <span>8,7</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="25" aria-valuenow="40" aria-valuemin="40" aria-valuemax="100"></div>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="button_load">
+        <a href="#">Load More</a>
+      </div>
+
+<div class="accordion_models">
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse03" aria-expanded="true" aria-controls="collapse03">
+                  <div class="d-flex align-center">
+                    <div class="sv-product-report-result__title">Very soon</div>
+                    <div class="sv-product-report-result__count">44 model</div>
+                  </div>
+                </button>
+              </h2>
+              <div id="collapse03" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="PreparingReport">
+                              <img src="img/sv-not-ready.svg">
+                              <p>Preparing Report</p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="sv-card-product-satisfaction sv-card-product-satisfaction-with-add false ga-v ga-c">
+                        <button class="sv-compare-button">
+                          <span class="icomoon-compare"></span>
+                        </button>
+                        <div class="sv-card-product-satisfaction__head">
+                          <div class="sv-score-sausage-radial">  87  </div>
+                          <div>
+                            <a href="#" class="sv-card-product-satisfaction__title">BMW 420</a>
+                            <span data-view-type="model" class="js-view-count sv-card-product-satisfaction__countView"></span>
+                          </div>
+                        </div>
+                        <div class="sv-card-product-satisfaction__main">
+                          <div class="sv-card-product-satisfaction__left">
+                            <a class="sv-card-product-satisfaction__image" href="#">
+                              <img class="" alt="BMW 420" width="160" height="160" src="https://files.sikayetvar.com/model/591/bmw-420-0-1_160x160.jpg">
+                            </a>
+                            <footer class="sv-card-product-satisfaction__footer">
+                              <span class="sv-link-button">Detaylı İncele </span>
+                            </footer>
+                          </div>
+                          <div class="sv-card-produt">
+                            <div class="PreparingReport">
+                              <img src="img/sv-not-ready.svg">
+                              <p>Preparing Report</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="button_load">
+        <a href="#">Load More</a>
+      </div>
+     </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="top_modal_car">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="best-of-list">
+          <h2 class="best-of-list--title">Top Car Models</h2>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Desk</th>
+              <th scope="col">Type</th>
+              <th scope="col">Modal</th>
+              <th scope="col">score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td class="car_type">Sports Car</td>
+              <td><a class="" href="#">Mercedes-Benz S Serisi (Sedan)</a></td>
+              <td class="number_td">95</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td class="car_type">  Sedan Luxury</td>
+              <td><a class="" href="#">Mercedes-Benz S Serisi (Sedan)</a></td>
+              <td class="number_td">95</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td class="car_type">  Sedan Luxury</td>
+              <td><a class="" href="#">Mercedes-Benz S Serisi (Sedan)</a></td>
+              <td class="number_td">95</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="buying-guide">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+<footer id="sitefooter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="logo_footer">
+          <img src="img/logo2.png">
+        </div>
+      </div>
+    </div>
+      <div class="ul_list">
+        <ul class="link-primary">
+          <li><a href="#">about us</a></li>
+          <li><a href="#">For Brands</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">Product Guide</a></li>
+          <li><a href="#">Frequently Asked Questions</a></li>
+          <li><a href="#">Communication</a></li>
+        </ul>
+        <ul class="social-media">
+          <li><a href="#" target="_blank"><img class=" lazyloaded" src="img/instagram.svg"></a></li>
+          <li><a href="#" target="_blank"><img class=" lazyloaded" src="img/twitter.svg"></a></li>
+          <li><a href="#" target="_blank"><img class=" lazyloaded" src="img/youtube.svg"></a></li>
+          <li><a href="#" target="_blank"><img class=" lazyloaded" src="img/facebook.svg"></a></li>
+          <li><a href="#" target="_blank"><img class=" lazyloaded" src="img/linkedin.svg"></a></li>
+        </ul>
+      </div>
+<hr>
+<div class="row">
+    <div class="col-xl-4">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="link-complaint">
+              <h4>Şikayetler</h4>
+              <ul>
+                <li><a href="#" class="complaint-layer">QNB Finansbank Hesaptan Bilinmeyen Tutar Çekilmesi</a></li>
+                <li><a href="#" class="complaint-layer">Halkbank ATM Paraya El Koydu</a></li>
+                <li><a href="#" class="complaint-layer">Akbank'a Kayıtlı Numara Değişikliği</a></li>
+                <li><a href="#" class="complaint-layer">Kuryenet KYK Ziraat Kartım Halen Gelmedi</a></li>
+                <li><a href="#" class="complaint-layer">Sürat Kargo Kargo Teslim Edilmedi</a></li>
+                <li><a href="#" class="complaint-layer">Samsung Televizyon Algılama Sıkıntısı</a></li>
+                <li><a href="#" class="complaint-layer">Akbank Kredi Kartı Yıllık Kart Ücreti İptal Ve İadesi Talebi</a></li>
+                <li><a href="#" class="complaint-layer">Ferroli Kombi Su Basıncı</a></li>
+                <li><a href="#" class="complaint-layer">Sivas Merkez Denizbank İstasyon Caddesi Çalışanları Sorumsuz Ilgısız</a></li>
+                <li><a href="#" class="complaint-layer">Halkbank 1 Saat Bekleme Rağmen İlgilenilmiyor Mağdurum</a></li>
+                <li class="for-all"><a href="#">Tüm Şikayetler</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="col-xl-8">    
+<div class="row">
+  <div class="col-xl-3 col-lg-3 col-md-6">
+    <div class="link-brand">
+      <h4>Brands</h4>
+      <ul>
+        <li><a href="#">D-Smart</a></li>
+        <li><a href="#">Acer</a></li>
+        <li><a href="#">Viomi</a></li>
+        <li><a href="#">Kredi ve Yurtlar Kurumu</a></li>
+        <li><a href="#">Doğa Koleji Eğitim Kurumları</a></li>
+        <li><a href="#">Philip Morris</a></li>
+        <li><a href="#">Bilyoner</a></li>
+        <li><a href="#">Xiaomi</a></li>
+        <li><a href="#">Paycell</a></li>
+        <li><a href="#">Korkmaz Mutfak Eşyaları</a></li>
+      </ul>
+      <div class="for-all"><a href="#">Tüm Markalar</a></div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-lg-3 col-md-6">
+    <div class="link-brand">
+      <h4>Most Wanted</h4>
+      <ul>
+        <li><a href="#">D-Smart</a></li>
+        <li><a href="#">Acer</a></li>
+        <li><a href="#">Viomi</a></li>
+        <li><a href="#">Kredi ve Yurtlar Kurumu</a></li>
+        <li><a href="#">Doğa Koleji Eğitim Kurumları</a></li>
+        <li><a href="#">Philip Morris</a></li>
+        <li><a href="#">Bilyoner</a></li>
+        <li><a href="#">Xiaomi</a></li>
+        <li><a href="#">Paycell</a></li>
+        <li><a href="#">Korkmaz Mutfak Eşyaları</a></li>
+      </ul>
+      <div class="for-all"><a href="#">Tüm Markalar</a>
+    </div>
+  </div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6">
+  <div class="link-brand">
+    <h4>Trend100</h4>
+    <ul>
+      <li><a href="#">D-Smart</a></li>
+      <li><a href="#">Acer</a></li>
+      <li><a href="#">Viomi</a></li>
+      <li><a href="#">Kredi ve Yurtlar Kurumu</a></li>
+      <li><a href="#">Doğa Koleji Eğitim Kurumları</a></li>
+      <li><a href="#">Philip Morris</a></li>
+      <li><a href="#">Bilyoner</a></li>
+      <li><a href="#">Xiaomi</a></li>
+      <li><a href="#">Paycell</a></li>
+      <li><a href="#">Korkmaz Mutfak Eşyaları</a></li>
+    </ul>
+    <div class="for-all"><a href="#">Tüm Markalar</a>
+  </div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6">
+<div class="link-brand">
+  <h4>Trend100</h4>
+  <ul>
+    <li><a href="#">D-Smart</a></li>
+    <li><a href="#">Acer</a></li>
+    <li><a href="#">Viomi</a></li>
+    <li><a href="#">Kredi ve Yurtlar Kurumu</a></li>
+    <li><a href="#">Doğa Koleji Eğitim Kurumları</a></li>
+    <li><a href="#">Philip Morris</a></li>
+    <li><a href="#">Bilyoner</a></li>
+    <li><a href="#">Xiaomi</a></li>
+    <li><a href="#">Paycell</a></li>
+    <li><a href="#">Korkmaz Mutfak Eşyaları</a></li>
+  </ul>
+  <div class="for-all"><a href="#">Tüm Markalar</a>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div class="row copyright_sec">
+  <div class="col-md-6">
+    <ul>
+      <li><a href="#">Security</a></li>
+      <li><a href="#">Terms of use</a></li>
+      <li><a href="#">Evaluation Guide</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <div class="copy_right">
+      <p>© 2022 Complaints. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

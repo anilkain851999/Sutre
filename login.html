@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Login
+</button>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div id="modal-signin" style="">
+          
+          <form class="register-popup" id="frm-login" novalidate="novalidate">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+              
+              <div class="register-head">
+                <span class="logo-symbol">
+                  <img src="img/logo-mini.svg" decoding="auto" alt="have a complaint"/>
+                </span>
+
+                <div class="title-sec"><h2>Login</h2>
+                  <a href="#">
+                    <span class="login-link js-btn-signup" tabindex="0">Don't have an account?</span>
+                    <span class="bold_span">Sign up.</span>
+                    </span>
+                </a>
+                </div>
+
+              <div class="btn-group">
+                <a href="#" rel="nofollow" title="Login with Facebook" aria-label="Login with Facebook" class="btn btn-fb js-social-btn">
+                <i class="fa fa-facebook"></i>Login with Facebook
+                </a>
+                <a href="#" rel="nofollow" title="Sign in with Google" aria-label="Sign in with Google" class="btn btn-google js-social-btn">
+                  <i class="fa fa-google"></i>Sign in with Google</a>
+                </div>
+
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email or GSM No" aria-describedby="emailHelp">
+              </div>
+
+              <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Password (Minimum 8 Characters)" id="exampleInputPassword1">
+              </div>
+             
+              <div class="form-group check_forget_pas">
+                <label class="checkbox">
+                  <input type="checkbox" name="terms" checked=""> <span>Remember me</span>
+                </label>
+                <span class="forget-pwd js-btn-forgot-password" tabindex="0">I forgot my password</span>
+              </div>
+
+              <div class="btn-wrap_submit">
+                <button type="submit" aria-label="Login" class="btn btn-search">Login</button>
+              </div>
+
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style type="text/css">
+  #modal-signin .register-popup {
+    padding: 51px 96px 62px 353px;
+    margin: 0px auto;
+    background: url(./img/pattern.png) left/254px 100% no-repeat #f4f5f9;
+    border-radius: 20px;
+}
+.modal-dialog {
+    max-width: 920px;
+    margin:0px auto;
+}
+.modal-content {
+    border-radius: 20px;
+}
+span.logo-symbol img {
+    width: 33px;
+}
+button.btn-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.title-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-group a.btn.btn-fb.js-social-btn {
+    border-color: #3664a2;
+    background-color: #3664a2;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+}
+.btn-group i.fa.fa-facebook {
+    margin-right: 5px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #3664a2;
+    font-size: 18px;
+    line-height: 30px;
+}
+a.btn.btn-google.js-social-btn {
+    border-color: #ea4436;
+    background-color: #ea4436;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+.btn-group i.fa.fa-google {
+    margin-right: 5px;
+}
+form#frm-login input {
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #edebeb;
+}
+.form-group.check_forget_pas {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-wrap_submit {
+    text-align: center;
+}
+button.btn.btn-search {
+    background-color: #3ad08f;
+    border-color: #3ad08f;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+button.btn-close {
+    height: 30px;
+    width: 30px;
+    background: #bdbdbd;
+    border-radius: 50%;
+}
+button.btn-close i.fa.fa-close {
+    font-size: 20px;
+}
+span.login-link.js-btn-signup {
+    color: #a4a4a9;
+    text-decoration: underline;
+}
+span.bold_span {
+    color: #000;
+    font-weight: 500;
+}
+</style>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
